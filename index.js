@@ -6,7 +6,7 @@ const createWindow = () => {
     const mainWindow = new BrowserWindow({
         "title": "ビンゴゲーム！",
         "width": screen.getPrimaryDisplay().size.width / 1.8,
-        "height": screen.getPrimaryDisplay().size.height / 1.4,
+        "height": screen.getPrimaryDisplay().size.height / 1.25,
         "icon": "icon.png",
         "backgroundColor": "#121212",
         "autoHideMenuBar": true,
