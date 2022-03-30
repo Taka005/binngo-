@@ -1,0 +1,58 @@
+{
+  "name": "binngo",
+  "version": "1.0",
+  "description": "ただのビンゴゲームです。たぶん需要はないです",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "taka005.binngo",
+    "productName": "binngo",
+    "icon": "icon.png",
+    "copyright": "(c) 2021 Taka005",
+    "win": {
+      "icon": "icon.ico",
+      "target": {
+        "target": "default",
+        "arch": [
+          "x64"
+        ]
+      }
+    },
+    "mac": {
+      "icon": "icon.icns",
+      "target": {
+        "target": "default",
+        "arch": [
+          "x64",
+          "arm64"
+        ]
+      }
+    },
+    "linux": {
+      "icon": "icon.png",
+      "target": {
+        "target": "default"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taka005/binngo.git"
+  },
+  "author": "Taka005#1203",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://discord.gg/GPs3npB63m"
+  },
+  "homepage": "https://discord.gg/GPs3npB63m",
+  "devDependencies": {
+    "electron": "^16.2.0",
+    "electron-builder": "^22.14.5"
+  },
+  "dependencies": {
+    "about-window": "^1.15.2"
+  }
+}
